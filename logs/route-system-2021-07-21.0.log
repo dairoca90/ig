@@ -1,0 +1,22 @@
+2021-07-21T19:26:15,433Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | Reading the configuration from /app/uig/config/admin.json
+2021-07-21T19:26:15,615Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | IG environment:
+2021-07-21T19:26:15,615Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | - instance directory: /app/uig
+2021-07-21T19:26:15,616Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | - temporary directory: /app/uig/tmp
+2021-07-21T19:26:15,894Z | WARN  | main | o.f.o.s.OpenIGInitializer | @system | The product is running in DEVELOPMENT mode - by default, all endpoints are open and accessible. Do not use this mode for a production environment. To switch to PRODUCTION mode, remove or set the top-level attribute '"mode": "PRODUCTION"' to '/app/uig/config/admin.json'
+2021-07-21T19:26:24,196Z | INFO  | main | o.f.api.models.Items | @system | Asked for Items for annotated type, but type does not have required RequestHandler annotation. No api descriptor will be available for class org.forgerock.monitoring.DropwizardMetricsCollectionResourceProvider
+2021-07-21T19:26:24,197Z | INFO  | main | o.f.a.m.Resource | @system | Asked for Resource for annotated type, but type does not have required RequestHandler annotation. No api descriptor will be available for class org.forgerock.monitoring.DropwizardMetricsCollectionResourceProvider
+2021-07-21T19:26:24,396Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | /app/uig/config/config.json not readable, using IG's default-config.json
+2021-07-21T19:26:26,382Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Routes endpoint available at '/openig/api/system/objects/_router/routes'
+2021-07-21T19:26:26,543Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Loaded the route with id 'apis' registered with the name 'apis'
+2021-07-21T19:26:26,641Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Loaded the route with id 'apis2' registered with the name 'apis2'
+2021-07-21T19:27:42,891Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | Reading the configuration from /app/uig/config/admin.json
+2021-07-21T19:27:43,160Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | IG environment:
+2021-07-21T19:27:43,160Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | - instance directory: /app/uig
+2021-07-21T19:27:43,161Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | - temporary directory: /app/uig/tmp
+2021-07-21T19:27:43,474Z | WARN  | main | o.f.o.s.OpenIGInitializer | @system | The product is running in DEVELOPMENT mode - by default, all endpoints are open and accessible. Do not use this mode for a production environment. To switch to PRODUCTION mode, remove or set the top-level attribute '"mode": "PRODUCTION"' to '/app/uig/config/admin.json'
+2021-07-21T19:27:54,219Z | INFO  | main | o.f.api.models.Items | @system | Asked for Items for annotated type, but type does not have required RequestHandler annotation. No api descriptor will be available for class org.forgerock.monitoring.DropwizardMetricsCollectionResourceProvider
+2021-07-21T19:27:54,220Z | INFO  | main | o.f.a.m.Resource | @system | Asked for Resource for annotated type, but type does not have required RequestHandler annotation. No api descriptor will be available for class org.forgerock.monitoring.DropwizardMetricsCollectionResourceProvider
+2021-07-21T19:27:54,451Z | INFO  | main | o.f.o.s.OpenIGInitializer | @system | /app/uig/config/config.json not readable, using IG's default-config.json
+2021-07-21T19:27:56,884Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Routes endpoint available at '/openig/api/system/objects/_router/routes'
+2021-07-21T19:27:56,995Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Loaded the route with id 'apis' registered with the name 'apis'
+2021-07-21T19:27:57,024Z | INFO  | main | o.f.o.h.r.RouterHandler | @system | Loaded the route with id 'apis2' registered with the name 'apis2'

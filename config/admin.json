@@ -1,0 +1,21 @@
+{
+  "mode":"DEVELOPMENT",
+  "heap": [{
+    "name": "ClientHandler",
+    "type": "ClientHandler"
+  }, {
+    "name": "MetricsProtectionFilter",
+    "type": "ScriptableFilter",
+    "config": {
+      "type": "application/x-groovy",
+      "file": "BasicAuthResourceServerFilter.groovy",
+      "args": {
+        "realm": "/",
+        "username": "metric",
+        "password": "password"
+      }
+    }
+  }],
+  "prefix": "openig"
+}
+    

@@ -1,0 +1,2 @@
+(self.webpackChunkopenig_ui=self.webpackChunkopenig_ui||[]).push([[776],{34776:function(n,t,e){var i=e(40202);n.exports=(i.default||i).template({compiler:[7,">= 4.0.0"],main:function(n,t,e,i,a){return'<div class="btn-group pull-right">\n    <button type="button" class="btn btn-link js-edit">\n        <i class="fa fa-pencil" aria-hidden="true"></i>\n    </button>\n    <button type="button" class="btn btn-link js-delete">\n        <i class="fa fa-times" aria-hidden="true"></i>\n    </button>\n</div>\n'},useData:!0})}}]);
+//# sourceMappingURL=776.2c5f80976536b6712647.js.map

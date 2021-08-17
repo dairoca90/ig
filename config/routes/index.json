@@ -1,0 +1,15 @@
+{
+  "name" : "index",
+  "baseURI" : "http://localhost:8080",
+  "condition" : "${matches(request.uri.path, '^/')}",
+  "handler" : {
+    "type" : "StaticResponseHandler",
+    "config" : {
+      "status" : 200,
+      "headers" : {
+        "Content-Type" : [ "text/html" ]
+      },
+      "entity" : "<!DOCTYPE html><html><body><div style='background-color:#1c87c9;'><img src='https://www.bancosabadell.mx/empresas/files/1452615127321/logotipo_web_191x61_opt.png' alt='Banco Sabadell'></div></html>"
+    }
+  }
+}

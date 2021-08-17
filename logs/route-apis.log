@@ -1,0 +1,141 @@
+2021-07-22T13:32:01,490Z | INFO  | http-nio-8080-exec-1 | o.f.o.d.c.C.c.top-level-handler | @apis | 
+
+[CONTINUED]--- (request) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 --->
+
+[CONTINUED]GET http://ig.midominio.com:8080/apis2 HTTP/1.1
+[CONTINUED]accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[CONTINUED]accept-encoding: gzip, deflate
+[CONTINUED]accept-language: es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7
+[CONTINUED]connection: keep-alive
+[CONTINUED]host: ig.midominio.com:8080
+[CONTINUED]upgrade-insecure-requests: 1
+[CONTINUED]user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:01,521Z | INFO  | http-nio-8080-exec-1 | o.f.o.d.c.C.c.ReverseProxyHandler | @apis | 
+
+[CONTINUED]--- (request) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 --->
+
+[CONTINUED]GET http://kubernetes-apis.com:48080/apis2 HTTP/1.1
+[CONTINUED]accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[CONTINUED]accept-encoding: gzip, deflate
+[CONTINUED]accept-language: es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7
+[CONTINUED]connection: keep-alive
+[CONTINUED]host: ig.midominio.com:8080
+[CONTINUED]upgrade-insecure-requests: 1
+[CONTINUED]user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:01,523Z | INFO  | http-nio-8080-exec-1 | o.f.o.d.c.C.c.ReverseProxyHandler | @apis | 
+
+[CONTINUED]--- (request) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 --->
+
+[CONTINUED]GET http://kubernetes-apis.com:48080/apis2 HTTP/1.1
+[CONTINUED]accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+[CONTINUED]accept-encoding: gzip, deflate
+[CONTINUED]accept-language: es-MX,es;q=0.9,en-US;q=0.8,en;q=0.7
+[CONTINUED]connection: keep-alive
+[CONTINUED]host: ig.midominio.com:8080
+[CONTINUED]upgrade-insecure-requests: 1
+[CONTINUED]user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:04,011Z | INFO  | pool-7-thread-1 | o.f.o.d.c.C.c.ReverseProxyHandler | @apis | 
+
+[CONTINUED]<--- (response) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 ---
+
+[CONTINUED]HTTP/1.1 502 Bad Gateway
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:04,016Z | INFO  | pool-7-thread-1 | o.f.o.d.c.C.c.ReverseProxyHandler | @apis | 
+
+[CONTINUED]<--- (response) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 ---
+
+[CONTINUED]HTTP/1.1 502 Bad Gateway
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:04,153Z | INFO  | pool-7-thread-1 | o.f.o.d.t.T.t.ReverseProxyHandler | @apis | Elapsed time: 2493 ms
+2021-07-22T13:32:04,154Z | INFO  | pool-7-thread-1 | o.f.o.d.c.C.c.top-level-handler | @apis | 
+
+[CONTINUED]<--- (response) id:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65 ---
+
+[CONTINUED]HTTP/1.1 502 Bad Gateway
+
+[CONTINUED][content-type not set: entity cannot be displayed]
+[CONTINUED]Context's content as JSON:
+[CONTINUED]attributes:
+
+
+2021-07-22T13:32:04,177Z | WARN  | pool-7-thread-1 | o.f.o.f.LogAttachedExceptionFilter | @apis | Response [Status: 502 Bad Gateway] to `http://kubernetes-apis.com:48080/apis2` carries an exception [txId:aaa162ed-1b93-4dc0-afc6-1ec3012bdf4e-65]
+[CONTINUED]java.lang.RuntimeException: java.net.ConnectException: Connection refused
+[CONTINUED]	at org.forgerock.http.apache.async.AsyncResponseHttpClient$EntityCompletionPromiseResponseConsumer.failed(AsyncResponseHttpClient.java:165)
+[CONTINUED]	at org.forgerock.http.apache.async.MdcAwareHttpAsyncResponseConsumer.failed(MdcAwareHttpAsyncResponseConsumer.java:75)
+[CONTINUED]	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.executionFailed(DefaultClientExchangeHandlerImpl.java:99)
+[CONTINUED]	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.failed(AbstractClientExchangeHandler.java:426)
+[CONTINUED]	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.connectionRequestFailed(AbstractClientExchangeHandler.java:348)
+[CONTINUED]	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.access$100(AbstractClientExchangeHandler.java:62)
+[CONTINUED]	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler$1.failed(AbstractClientExchangeHandler.java:392)
+[CONTINUED]	at org.apache.http.concurrent.BasicFuture.failed(BasicFuture.java:137)
+[CONTINUED]	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$1.failed(PoolingNHttpClientConnectionManager.java:316)
+[CONTINUED]	at org.apache.http.concurrent.BasicFuture.failed(BasicFuture.java:137)
+[CONTINUED]	at org.apache.http.nio.pool.RouteSpecificPool.failed(RouteSpecificPool.java:162)
+[CONTINUED]	at org.apache.http.nio.pool.AbstractNIOConnPool.requestFailed(AbstractNIOConnPool.java:613)
+[CONTINUED]	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.failed(AbstractNIOConnPool.java:893)
+[CONTINUED]	at org.apache.http.impl.nio.reactor.SessionRequestImpl.failed(SessionRequestImpl.java:177)
+[CONTINUED]	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:176)
+[CONTINUED]	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+[CONTINUED]	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+[CONTINUED]	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+[CONTINUED]	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+[CONTINUED]	at java.base/java.lang.Thread.run(Thread.java:829)
+[CONTINUED]Caused by: java.net.ConnectException: Connection refused
+[CONTINUED]	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+[CONTINUED]	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+[CONTINUED]	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+[CONTINUED]	... 5 common frames omitted
+java.lang.RuntimeException: java.net.ConnectException: Connection refused
+	at org.forgerock.http.apache.async.AsyncResponseHttpClient$EntityCompletionPromiseResponseConsumer.failed(AsyncResponseHttpClient.java:165)
+	at org.forgerock.http.apache.async.MdcAwareHttpAsyncResponseConsumer.failed(MdcAwareHttpAsyncResponseConsumer.java:75)
+	at org.apache.http.impl.nio.client.DefaultClientExchangeHandlerImpl.executionFailed(DefaultClientExchangeHandlerImpl.java:99)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.failed(AbstractClientExchangeHandler.java:426)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.connectionRequestFailed(AbstractClientExchangeHandler.java:348)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler.access$100(AbstractClientExchangeHandler.java:62)
+	at org.apache.http.impl.nio.client.AbstractClientExchangeHandler$1.failed(AbstractClientExchangeHandler.java:392)
+	at org.apache.http.concurrent.BasicFuture.failed(BasicFuture.java:137)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager$1.failed(PoolingNHttpClientConnectionManager.java:316)
+	at org.apache.http.concurrent.BasicFuture.failed(BasicFuture.java:137)
+	at org.apache.http.nio.pool.RouteSpecificPool.failed(RouteSpecificPool.java:162)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestFailed(AbstractNIOConnPool.java:613)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.failed(AbstractNIOConnPool.java:893)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.failed(SessionRequestImpl.java:177)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:176)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:777)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	... 5 common frames omitted

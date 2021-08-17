@@ -1,0 +1,6 @@
+{
+  "type": "Router",
+  "config": {
+    "scanInterval": "disabled"
+  }
+}
